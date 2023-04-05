@@ -18,17 +18,12 @@
     'Gárdony'
     
     );
-    $tomb3 = array(
-        200,
-        199,
-        200,
-        10
-        
-    );
+    
      
     echo"<table><tr><th>Név</th><th>Város</th><th>Busz Sorszáma</th></tr>";
        for ($i = 0;$i < count($tomb1);$i++){
-       print_r(("<tr><td>$tomb1[$i]</td><td>$tomb2[$i]</td><td>$tomb3[$i]</td></tr>"));
+         $szam = rand (1,200);
+       print_r(("<tr><td>$tomb1[$i]</td><td>$tomb2[$i]</td><td>$szam</td></tr>"));
            /*  echo "<br>"; */
        }
         
